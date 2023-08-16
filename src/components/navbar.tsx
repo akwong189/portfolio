@@ -37,6 +37,7 @@ export default function NavBar() {
                             component="a"
                             href={`#${val.toLowerCase()}`}
                             sx = {typo_sx}
+                            id = {val}
                         >
                             {val}
                         </Typography>
